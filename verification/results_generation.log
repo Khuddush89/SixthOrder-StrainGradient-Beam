@@ -1,0 +1,8 @@
+sign_check     done in   2.4 s
+constants      done in 187.5 s
+example1       done in   3.2 s
+example2       done in  33.3 s
+example3       done in   6.8 s
+verification   done in  10.0 s
+mechanics      done in   0.0 s
+wrote REPOSITORY_ROOT/code/scripts/../results/results.json (243.1 s)

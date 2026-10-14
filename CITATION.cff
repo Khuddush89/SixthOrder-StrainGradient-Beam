@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: 'Please cite this computational companion when using its software or graphics.'
+type: software
+title: 'Positive Solutions for a Sixth-Order Strain-Gradient Beam Boundary Value Problem: Computational Companion'
+authors:
+  - family-names: Khuddush
+    given-names: Mahammad
+    orcid: 'https://orcid.org/0000-0002-1236-8334'
+version: 2.1.0
+date-released: '2026-10-14'
+repository-code: 'https://github.com/Khuddush89/SixthOrder-StrainGradient-Beam'
+license: MIT
+keywords:
+  - strain-gradient beams
+  - Green kernels
+  - positive solutions
+  - numerical continuation
+  - finite elements

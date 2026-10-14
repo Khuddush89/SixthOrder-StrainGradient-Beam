@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "local_links_checked": 44,
+  "animations": [
+    {
+      "file": "cone_estimates.gif",
+      "frames": 64,
+      "distinct_thumbnails": 34,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "convergence.gif",
+      "frames": 55,
+      "distinct_thumbnails": 29,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "hero.gif",
+      "frames": 64,
+      "distinct_thumbnails": 34,
+      "pixels": [
+        1600,
+        800
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "kernel_surface.gif",
+      "frames": 64,
+      "distinct_thumbnails": 64,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "material_length.gif",
+      "frames": 64,
+      "distinct_thumbnails": 33,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "nonlinear_branches.gif",
+      "frames": 61,
+      "distinct_thumbnails": 32,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    },
+    {
+      "file": "source_scan.gif",
+      "frames": 64,
+      "distinct_thumbnails": 33,
+      "pixels": [
+        1430,
+        726
+      ],
+      "loop_duration_ms": 6400
+    }
+  ],
+  "figures": [
+    {
+      "file": "fig1_green_sections.png",
+      "pixels": [
+        6459,
+        3492
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    },
+    {
+      "file": "fig2_green_surface.png",
+      "pixels": [
+        6193,
+        3630
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    },
+    {
+      "file": "fig3_eta.png",
+      "pixels": [
+        6581,
+        3482
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    },
+    {
+      "file": "fig4_examples.png",
+      "pixels": [
+        6653,
+        5213
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    },
+    {
+      "file": "fig5_verification.png",
+      "pixels": [
+        6822,
+        5213
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    },
+    {
+      "file": "fig6_size_effect.png",
+      "pixels": [
+        6550,
+        5001
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ]
+    }
+  ],
+  "scope": "No LaTeX, PDF, CSV or old Maple worksheet files",
+  "finite_result_values": true
+}

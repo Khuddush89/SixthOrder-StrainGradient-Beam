@@ -1,0 +1,80 @@
+{
+  "source_scan": {
+    "file": "assets/animations/source_scan.gif",
+    "frames": 64,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "Source position s sweeps from 0.15 to 0.85 and back; alpha=L=1.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  },
+  "kernel_surface": {
+    "file": "assets/animations/kernel_surface.gif",
+    "frames": 64,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "A rotating camera displays the fixed positive response kernel at alpha=L=1.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  },
+  "cone_estimates": {
+    "file": "assets/animations/cone_estimates.gif",
+    "frames": 64,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "Six computed ratio curves and an analytical Helmholtz lower bound; numerical minima are not certified constants.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  },
+  "material_length": {
+    "file": "assets/animations/material_length.gif",
+    "frames": 64,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "The static length ratio kappa=L/g sweeps from 0.1 to 200 and back.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  },
+  "nonlinear_branches": {
+    "file": "assets/animations/nonlinear_branches.gif",
+    "frames": 61,
+    "nominal_frame_duration_ms": 100,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "Computed equilibrium continuation, not time dynamics or a proof of global nonexistence.",
+    "source": "code/scripts/make_animations.py",
+    "max_discrete_residual": 5.329070518200751e-15
+  },
+  "convergence": {
+    "file": "assets/animations/convergence.gif",
+    "frames": 55,
+    "pixels": [
+      1430,
+      726
+    ],
+    "meaning": "Four actually computed finite-difference grids cycle from N=25 to 200 and back.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  },
+  "hero": {
+    "file": "assets/animations/hero.gif",
+    "frames": 64,
+    "pixels": [
+      1600,
+      800
+    ],
+    "meaning": "Six tiles show kernel shape, source position, static deflection, size factor, computed branch and mesh refinement.",
+    "source": "code/scripts/make_animations.py",
+    "nominal_frame_duration_ms": 100
+  }
+}

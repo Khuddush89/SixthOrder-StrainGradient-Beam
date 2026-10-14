@@ -1,0 +1,12 @@
+uniform-load differential equation: exact zero
+u at 0: exact zero
+u_second at 0: exact zero
+boundary_combination at 0: exact zero
+u at L: exact zero
+u_second at L: exact zero
+boundary_combination at L: exact zero
+High-precision constants 1: {'A': '0.0002170423657532656195273857346407239214035', 'B': '0.0001181999127729830963548551713916820094719', 'eta_H': '0.214952399788605081657585596448990857751'}
+High-precision constants 5: {'A': '0.00006932061023248437566080949250734343255607', 'B': '0.0000357927731732327804890532872879254820478', 'eta_H': '0.02158827182580598401621779421639119886597'}
+Manufactured solution: {'L': 1.7, 'alpha': 2, 'kernel_relative_error': 4.44451307023475e-15, 'fd_errors': [0.015176907540510643, 0.0037920540018544307, 0.0009481803559782171], 'fd_orders': [2.0008264413235275, 1.9997461001961634], 'fe_errors': [0.00023452846093063347, 1.5073547284932353e-05, 9.47455418696962e-07], 'fe_orders': [3.959672135939294, 3.991817097967958]}
+Fold refinement: [{'alpha': 1.0, 'fold_48': 2004.1060030446129, 'fold_64': np.float64(2004.1060030445954), 'relative_difference': np.float64(8.770761894538737e-15), 'nodal_residual': 2.220446049250313e-16}, {'alpha': 2.0, 'fold_48': 2553.850096488059, 'fold_64': np.float64(2553.8500964880595), 'relative_difference': np.float64(2.220446049250313e-16), 'nodal_residual': 2.220446049250313e-16}, {'alpha': 5.0, 'fold_48': 6372.872585815155, 'fold_64': np.float64(6372.872585815152), 'relative_difference': np.float64(4.440892098500626e-16), 'nodal_residual': 4.440892098500626e-16}, {'alpha': 10.0, 'fold_48': 19808.277132871997, 'fold_64': np.float64(19808.27713287199), 'relative_difference': np.float64(3.3306690738754696e-16), 'nodal_residual': 2.220446049250313e-16}, {'alpha': 20.0, 'fold_48': 72933.76307366695, 'fold_64': np.float64(72933.76307366695), 'relative_difference': np.float64(0.0), 'nodal_residual': 2.220446049250313e-16}]
+ALL INDEPENDENT AUDIT CHECKS PASSED

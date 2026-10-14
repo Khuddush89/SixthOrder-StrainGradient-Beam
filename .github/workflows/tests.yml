@@ -1,0 +1,24 @@
+name: Verified beam computations
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Numerical and regression tests
+        run: python -m pytest -q code/tests
+      - name: Exact symbolic identities
+        run: python code/scripts/verify_green_symbolic.py
+      - name: Repository and media integrity
+        run: python code/scripts/check_package.py

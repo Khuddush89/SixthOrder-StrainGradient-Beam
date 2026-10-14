@@ -1,0 +1,16 @@
+equation, x < s                      exact identity: True; max |residual| = 0.0e+00  ok
+equation, x > s                      exact identity: True; max |residual| = 0.0e+00  ok
+G(0) = 0                             exact identity: True; max |residual| = 2.8e-191  ok
+G''(0) = 0                           exact identity: True; max |residual| = 7.0e-192  ok
+G'''(0) - a^2 G'(0) = 0              exact identity: True; max |residual| = 7.0e-192  ok
+G(L) = 0                             exact identity: True; max |residual| = 3.6e-189  ok
+G''(L) = 0                           exact identity: True; max |residual| = 2.8e-191  ok
+G'''(L) - a^2 G'(L) = 0              exact identity: True; max |residual| = 2.2e-190  ok
+continuity of d^0G at x = s          exact identity: True; max |residual| = 4.5e-190  ok
+continuity of d^1G at x = s          exact identity: True; max |residual| = 1.8e-189  ok
+continuity of d^2G at x = s          exact identity: True; max |residual| = 2.2e-190  ok
+continuity of d^3G at x = s          exact identity: True; max |residual| = 4.5e-190  ok
+continuity of d^4G at x = s          exact identity: True; max |residual| = 7.0e-192  ok
+jump of d^5 G at x = s equals 1      exact identity: True; max |residual| = 1.4e-191  ok
+G4 with 1/(6L^3): jump of d^3 G4     = 1  ok
+ALL CHECKS PASSED
